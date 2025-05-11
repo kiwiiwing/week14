@@ -1,0 +1,79 @@
+body {
+  background-color: #B1BBD9;
+}
+
+.to-do-list {
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #333D91;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  font-size: 1.7 rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #A5AED6;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.add-button {
+  background-color: #6990C8;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.add-button:hover {
+  background-color: #446aa0;
+}
+
+.delete-button {
+  background-color: #5163AE;
+}
+
+.delete-button:hover {
+  background-color: #333D91;
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid #767db6;
+  border-radius: 10px;
+  color: rgb(7, 3, 3);
+}
+
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #A5AED6;
+  margin-bottom: 15px;
+  border: 2px solid #7481b9; 
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
+
+.delete-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
