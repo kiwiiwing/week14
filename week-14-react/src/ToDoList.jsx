@@ -24,6 +24,14 @@ function ToDoList() {
         setTasks(updatedTasks);
     }
 
+        function editTask(index, newText) {
+        setTasks(t =>
+            t.map((task, i)=>
+                i == index ? {... task, text: newText} : task
+            )
+        )
+    }
+
     return (
         <div className="to-do-list">
             <h1>To-Do List</h1>
